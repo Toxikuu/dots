@@ -1,0 +1,41 @@
+# alacritty/colors.toml
+# THEME: Sienna
+
+# Primary colors
+[colors.primary]
+background = "#24272f"
+foreground = "#f6e5dd"
+dim_foreground = "#e6d5cd"
+bright_foreground = "#fff5fd"
+
+# Cursor colors
+[colors.cursor]
+text = "#000000"
+cursor = "#f2a978"
+
+# Normal colors
+[colors.normal]
+black = "#3c474d"
+red = "#ca7b7b"
+green = "#dcb092"
+yellow = "#979590"
+blue = "#97adc2"
+magenta = "#b08bd3"
+cyan = "#f2a978"
+white = "#e5e5e5"
+
+# Bright colors
+[colors.bright]
+black = "#3c474d"
+red = "#ca7b7b"
+green = "#dcb092"
+yellow = "#979590"
+blue = "#97adc2"
+magenta = "#b08bd3"
+cyan = "#f2a978"
+white = "#e5e5e5"
+
+# Selection colors
+[colors.selection]
+text = "#000000"
+background = "#f2a978"

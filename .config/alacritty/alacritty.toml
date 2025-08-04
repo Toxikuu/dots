@@ -1,0 +1,42 @@
+#  ______     __         ______     ______     ______     __     ______   ______   __  __
+# /\  __ \   /\ \       /\  __ \   /\  ___\   /\  == \   /\ \   /\__  _\ /\__  _\ /\ \_\ \
+# \ \  __ \  \ \ \____  \ \  __ \  \ \ \____  \ \  __<   \ \ \  \/_/\ \/ \/_/\ \/ \ \____ \
+#  \ \_\ \_\  \ \_____\  \ \_\ \_\  \ \_____\  \ \_\ \_\  \ \_\    \ \_\    \ \_\  \/\_____\
+#   \/_/\/_/   \/_____/   \/_/\/_/   \/_____/   \/_/ /_/   \/_/     \/_/     \/_/   \/_____/
+#
+#   alacritty/alacritty.toml
+#   https://alacritty.org/config-alacritty.html
+#
+
+[general]
+import = ["~/.config/alacritty/colors.toml", "~/.config/alacritty/fonts.toml"]
+live_config_reload = true
+
+[cursor]
+blink_interval = 550
+unfocused_hollow = false
+thickness = 0.15
+
+[cursor.style]
+blinking = "On"
+shape = "Block"
+
+[selection]
+save_to_clipboard = false
+
+[env]
+WINIT_X11_SCALE_FACTOR = "1.0"
+
+[window]
+decorations = "none"
+dynamic_title = false
+opacity = 1
+dynamic_padding = true
+
+[window.padding]
+x = 4
+y = 3
+
+[scrolling]
+history = 10000
+multiplier = 3
