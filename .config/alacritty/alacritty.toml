@@ -13,7 +13,7 @@ import = ["~/.config/alacritty/colors.toml", "~/.config/alacritty/fonts.toml"]
 live_config_reload = true
 
 [cursor]
-blink_interval = 550
+blink_interval = 500
 unfocused_hollow = false
 thickness = 0.15
 
