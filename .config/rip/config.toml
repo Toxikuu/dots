@@ -1,0 +1,5 @@
+log_level = "info"
+
+artist_split_exceptions = [
+    "Tyler, The Creator"
+]
